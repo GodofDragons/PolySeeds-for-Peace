@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en" style = "height: auto; overflow: visible;">
+<head>
+
+		<!-- METADATA -->
+		<meta charset = "UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		<meta name = "theme-color" content="#f03434">
+
+		<title>The Plan</title>
+
+		<!-- All Links -->
+
+        <!--<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">-->
+
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="rMap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body onscroll="scrollFunction()" onload="onLoadAnimations()">
+
+        <nav class="navigation">
+            <script type="text/javascript" src="navWalk.js"></script>
+            <script type="text/javascript" src="dynamicNav.js"></script>
+            <div id="menu" onclick="sidewalk_in()"><span class="menu"></span></div>
+            <!--<img src="_assets/Logo.png" class="logo1">-->
+            <div id="overlay">
+                <nav id="sidewalk">
+                    <div id="cross"><span class="cross" onclick="sidewalk_out()">&times;</span></div>
+                    <!--<img src="_assets/Logo.png" class="logo2">-->
+                    <nav class="links">
+                    	<a href = "index.html" class="nav-item"> Home </a> 
+                        <a href="WarPredictor.html" class="nav-item">War Predictor</a>	
+                    </nav>
+                </nav>
+            </div>
+        </nav>
+        <div id="particles-js">
+
+
+<!-- Responsive Map -->
+
+	<div class="resp-container">
+		<iframe width="1920" height="580" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col11%2C+col12%2C+col10+from+16Rv760Exy60Lfjh1UwQDLeNGgN2_IMs9uSEubkWl+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=29.852019697268393&amp;lng=53.72993740906054&amp;t=1&amp;z=2&amp;l=col11&amp;y=2&amp;tmplt=2&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.6&amp;hmr=32&amp;hmw=10&amp;hml=TWO_COL_LAT_LNG"></iframe>
+	</div>
+
+
+</div>
+	</body>
+</html>

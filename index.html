@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang = "en" style = "height: auto; overflow: visible;">
+<head>
+
+		<!-- METADATA -->
+		<meta charset = "UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content = "IE=edge">
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		<meta name = "theme-color" content="#2e3131">
+
+		<title>The Plan</title>
+
+		<!-- All Links -->
+		<link rel = "stylesheet" href="style.css">
+     
+        <!--<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">-->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src=""></script>	<!-- ADD SRC -->
+        <script>
+            window.dataLayer=window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-102039054-2');
+        </script>
+
+    </head>
+
+    <body onscroll="scrollFunction()" onload="onLoadAnimations()">
+
+        <nav class="navigation">
+            <script type="text/javascript" src="navWalk.js"></script>
+            <script type="text/javascript" src="dynamicNav.js"></script>
+            <div id="menu" onclick="sidewalk_in()"><span class="menu"></span></div>
+            <!--<img src="_assets/Logo.png" class="logo1">-->
+            <div id="overlay">
+                <nav id="sidewalk">
+                    <div id="cross"><span class="cross" onclick="sidewalk_out()">&times;</span></div>
+                    <!--<img src="_assets/Logo.png" class="logo2">-->
+                    <nav class="links">
+                    	<a href = "index.html" class="nav-item"> Home </a> 
+                        <a href="WarPredictor.html" class="nav-item">War Predictor</a>	<!--Add link-->
+                    </nav>
+                </nav>
+            </div>
+        </nav>
+        
+        <div id="particles-js">
+
+            <div class="particleText">
+                <div class="particleText-text">
+                    <h1 class="title">The Plan</h1>
+                    <p class="resize">Save Lives Before They are Lost</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="first" id="first">
+            <h1 align="center">War <span style="color: currentColor">Predictor</span></h1>
+            <div class="cntnt">
+               <iframe width="500" height="400" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col11%2C+col12%2C+col10+from+16Rv760Exy60Lfjh1UwQDLeNGgN2_IMs9uSEubkWl+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=29.852019697268393&amp;lng=53.72993740906054&amp;t=1&amp;z=2&amp;l=col11&amp;y=2&amp;tmplt=2&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.6&amp;hmr=32&amp;hmw=10&amp;hml=TWO_COL_LAT_LNG"></iframe>
+                <p align="justify">Our novel product, War Predictor does exactly what it seems to do. It predicts wars, sometimes even before they are fought. This will help save lives and allow governments to take action to prevent these wars from ever taking place. <br><br>
+
+                We use machine learning to analyse datasets of the following parameters and do polynomial regression to find a pattern amongst these seemingly independent factors:
+
+                <ol>
+                	<li> Economic Stability	</li>
+                	<li> Gap Between Rich and Poor	</li>
+                	<li> Instability of Neighbours	</li>
+                	<li> Military Power	</li>
+                	<li> Immigration 	</li>
+                	<li> Military Technology	</li>
+                	<li> Stability of the Government </li>
+                	<li> Diversity </li>
+                	<li> Public Unrest	</li>
+                	<li> Healthcare	</li>
+                </ol> </p>
+
+            </div>
+        </div>
+            
+
+        <div class="footer">
+            <p>Made with <span>&#x2764; </span>by God of Dragons<span></span></p>
+            <div class="followus">
+                <div class="icons">
+                        <div class="icon">
+                            <img class="icon" src="css/icontwit.png">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="icon">
+                            <img class="icon" src="css/beh.png">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="icon">
+                            <img class="icon" src="css/face.png">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="icon">
+                            <img class="icon" src="css/med.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script>
+            particlesJS.load('particles-js',
+            function(){
+                console.log('')
+            })
+            particlesJS("particles-js", {"particles":{"number":{"value":60,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#fff"},"polygon":{"nb_sides":6},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.45,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.2,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":35,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.3,"width":1},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats=new Stats; stats.setMode(0); stats.domElement.style.position='absolute'; stats.domElement.style.left='0px'; stats.domElement.style.top='0px'; document.body.appendChild(stats.domElement); count_particles=document.querySelector('.js-count-particles'); update=function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText=window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+            function myFunction() {
+            var x=document.getElementById("Topnav");
+                if (x.className === "nav") {
+                    x.className += " responsive";
+                } else {
+                    x.className="nav";
+                }
+            }
+            $.fn.scrollView=function () {
+                return this.each(function () {
+                    $('html, body').animate({
+                        scrollTop: $(this).offset().top
+                    }, 1000);
+                });
+            }
+            $('#first').scrollView();
+        </script>
+    </body>
+</html>
